@@ -9,7 +9,7 @@ h1 {
   }
 
 .info {
-font-family: sans-serif;
+ font-family: sans-serif;
  color: rgb(247, 247, 247, 1);
  margin-left: 12px;
  padding: 10px;
@@ -25,4 +25,24 @@ header {
 p {
  margin-left: 12px;
  font-family:  sans-serif;
+  }
+
+#navbar {
+ position: fixed;
+ left: 0;
+ padding: 10px;
+  }
+
+#navbar header {
+ font-size: 1em;
+ margin-bottom: 20;
+  }
+
+#navbar a {
+ text-decoration: none;
+ display: block;
+ margin-bottom: 10px;
+ font-family: math;
+ color: rgb(20, 24, 126, 1);
+ margin-left: 12px;
   }
