@@ -22,12 +22,12 @@
             <header>Table of Contents</header>
 
             <a class="nav-link" href="#system_requirements">System Requirements</a>
-  <a class="nav-link" href="#installation_guide">Installation Guide</a>
-  <a class="nav-link" href="#user_interface_overview">User Interface Overview</a>
-  <a class="nav-link" href="#features">Features</a>
-  <a class="nav-link" href="#API_integration">API Integration</a>
-  <a class="nav-link" href="#data_security">Data Security</a>
-  <a class="nav-link" href="#troubleshooting">Troubleshooting</a>
+            <a class="nav-link" href="#installation_guide">Installation Guide</a>
+            <a class="nav-link" href="#user_interface_overview">User Interface Overview</a>
+            <a class="nav-link" href="#features">Features</a>
+            <a class="nav-link" href="#API_integration">API Integration</a>
+            <a class="nav-link" href="#data_security">Data Security</a>
+            <a class="nav-link" href="#troubleshooting">Troubleshooting</a>
         </nav>
 
         <section class="main-section" id="system_requirements">
@@ -40,9 +40,9 @@
               <li>Storage: 50 MB free space</li>
               <li>Internet Connectivity: Required for sync and cloud storage.</li>
             </ui>
-            </section>
+        </section>
 
-            <section class="main-section" id="installation_guide">
+        <section class="main-section" id="installation_guide">
                 <header>Installation Guide</header>
                  <p> This For iOS Users:</p>
                  <ul>
@@ -52,21 +52,72 @@
                  <code></code>
                  </section>
 
-                 <section class="main-section" id="user_interface_overview">
-                    <header>User Interface Overview</header>
-                     <p>Home Screen: Displays daily health metrics (e.g., steps, water, calories).
-                     </p>
-                     <ul>
+        <section class="main-section" id="user_interface_overview">
+            <header>User Interface Overview</header>
+                <p>Home Screen: Displays daily health metrics (e.g., steps, water, calories).</p>
+                     
+                    <ul>
                        <li>Menu Bar:</li>
                      </ul>
                      <p>Health Stats: Summary of daily activities.</p>
                      <p>Goals: Set personal health goals.</p>
                      <p>Reminders: Notifications for water intake, medication, etc.</p>
                      <p>Profile: User settings and preferences.</p>
-                 </section>
+        </section>
 
-                 
-    </main>
+        <section class="main-section" id="features">
+            <header>Features</header>
+              <p>Step Counter: Uses device sensors to track daily steps.</p>  
+              <p>Water Tracker: Allows users to log daily water intake.</p>
+              <p>Sleep Monitor: Records hours slept and sleep quality.</p>
+              <p>Nutrition Log: Tracks calories and macronutrients.</p>
+              <p>Reminders: Customizable reminders for health tasks.</p>
+              <p>Reports: Weekly and monthly health reports via graphs and charts.</p>
+              <p>Goal Setting: Allows users to set goals and monitor progress.</p>       
+        </section>
+        
+        <section class="main-section" id="API_integration" >
+            <header>API Integration</header>
+             <p>The Health Tracking App integrates with the following APIs:</p>  
+             <p>Google Fit API (for Android) and Apple HealthKit (for iOS) to sync
+                health data such as steps, heart rate, and activity.</p>
+             <p>Nutrition API: Provides food database for logging meals 
+               and tracking nutritional intake.</p>
+               <p>Endpoints:</p>
+               <ul>
+                 <li>/v1/steps: Fetches step count data.</li>
+                 <li>/v1/nutrition: Logs and retrieves daily meals.</li>
+                 <li>/v1/sleep: Collects sleep duration and quality data.</li>
+               </ul>
+        </section>
+        
+        <section class="main-section" id="data_security" >
+            <header>Data Security</header>
+             <p>Encryption: All user data is encrypted in transit and at 
+               rest using AES-256.</p>
+             <p>Authentication: Supports OAuth 2.0 for secure login.</p>
+             <p>Data Privacy: User data is stored in compliance with HIPAA 
+           and GDPR regulations</p>  
+        </section>
+          
+        <section class="main-section" id="troubleshooting" >
+            <header>Troubleshooting</header>
+             <p> Issue: App is not syncing with Google Fit or Apple Health.</p>
+             <p>Solution: Ensure that permissions for accessing health data are 
+              enabled in the device settings.</p>
+             <p>Issue: Push notifications not received.</p>
+             <p>Solution: Verify that notification settings are enabled in 
+              the app and the device's notification settings </p>  
+        </section>     
+    </main>         
+           <h2>Conclusion</h2>
+             <p class="end">The Health Tracking App provides a comprehensive solution for users 
+              aiming to improve and track their daily health habits. By leveraging APIs and secure 
+              data practices, the app ensures a seamless and secure 
+              experience for all users.</p>
 </body>
-</html>  
+</html>     
+          
+         
+        
 
